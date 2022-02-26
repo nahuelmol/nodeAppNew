@@ -16,7 +16,7 @@ $ npm start
 ```
 
 Your app should now be running on [localhost:5000](http://localhost:5000/).
-Or on [localhost:5000](https://stormy-peak-97183.herokuapp.com/).
+Or on [herokuapp](https://stormy-peak-97183.herokuapp.com/).
 
 ## Deploying to Heroku
 
