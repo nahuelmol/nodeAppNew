@@ -1,6 +1,6 @@
 const express = require('express')
 const path = require('path')
-const { mainPage, aboutPage } = require('./controllers/main.js')
+const { mainPage, aboutmePage } = require('./controllers/main.js')
 
 const PORT = process.env.PORT || 5000
 
