@@ -1,6 +1,6 @@
 const express = require('express')
 const path = require('path')
-const { mainPage, aboutmePage } = require('./controllers/main.js')
+const { mainPage, aboutmePage, futurestudiesPage } = require('./controllers/main.js')
 
 const PORT = process.env.PORT || 5000
 
@@ -12,5 +12,6 @@ app.set('view engine', 'ejs')
 
 app.get('/', mainPage)
 app.get('/aboutme', aboutmePage)
+app.get('/future-studies', futurestudiesPage)
 
 app.listen(PORT, () => console.log(`Listening on ${ PORT }`))

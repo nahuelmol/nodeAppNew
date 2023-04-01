@@ -2,11 +2,38 @@
 <html>
 <head>
 	<title>About me</title>
+	<%- include ("../partials/header.ejs") %>
+	<style type="text/css">
+		.gg {
+			position: relative;
+		}
+		.first {
+			top:150px;
+			left:60px;
+			position: absolute;
+		}
+		
+	</style>
+
 </head>
 <body>
+	<%- include ("../partials/nav.ejs") %>
 	<div>
 		<h1>Hi!</h1>
 		<p>I am Geophysics student, welcome and I hope you find something interesting over here</p>
+		<p>Talking I little bit about me, after all that's the goal of this page section, I am interested in the entire fields that Geophysics inplies. The filed that always interested me was the technological and I hope to contribute to this sector utilizing my knowledeges about geophysics, and if it is neccesary to make some kind of PhD, however is not one of my plans to continue sutdying for other people anymore.</p>
+		<p>It's not mandatory but I should mention that, I am currently in a blog that will treat topics related with my career. I have found this is gratifyign for self-taguht to have something where you can save all you learnt, like you own documentation.</p>
+		<a href="/" class="">
+      		
+    	</a>
 	</div>
+	<div class="gg">
+		<p  class="first">Something</p>
+		<img class="third" height="400" width="400" src="/btn/panel1.svg">
+	</div>
+	
+		<%- include ("../partials/footer.ejs") %>
+	
+	
 </body>
 </html>
